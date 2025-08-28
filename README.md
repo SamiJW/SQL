@@ -1,1 +1,3 @@
 # SQL
+
+Query optimization
