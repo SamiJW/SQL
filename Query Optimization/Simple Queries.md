@@ -92,7 +92,7 @@ REFERENCES EMPLOYEES (EMPLOYEE_ID);
 ````
 
 ## Consolidated script
-### Consolidating the script is only applicable in the first run series. The order of operations must be heavily considered when stating forgein key constraints within the CREATE TABLE statement. Hence the reason the order of tables created has been changed in this consolidated script. Otherwise an ALTER TABLE command is required proceeding the initial CREATE run.
+#### The consideration of consolidating this simple query script is only applicable prior to the initial run. The order of operations must be heavily considered when stating forgein key constraints within the CREATE TABLE statement. Hence the reason the order of tables created has been changed in this consolidated script. Otherwise an ALTER TABLE command is required proceeding the initial CREATE run as we see in the untouched script.
 ````sql
 CREATE TABLE CUSTOMERS (
     CUSTOMER_ID NUMBER (6) NOT NULL,
