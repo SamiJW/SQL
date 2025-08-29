@@ -23,7 +23,7 @@ ORDER BY total_spent DESC;
 ````
 #### Results
 | customer_id | total_spent |
-| :---------- | ----------: |
+| :---------: | :---------: |
 | 355         | 200         |
 | 185         | 128         |
 | 312         | 78          |
@@ -31,8 +31,3 @@ ORDER BY total_spent DESC;
 | 426         | 51          |
 | 288         | 27          |
 | 508         | 17          |
-
-| Header 1 | Header 2 | Header 3 |
-| :------- | :------: | -------: |
-| Data A1  | Data B1  | Data C1  |
-| Data A2  | Data B2  | Data C2  |
