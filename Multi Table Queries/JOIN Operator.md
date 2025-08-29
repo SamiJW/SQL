@@ -21,12 +21,13 @@ JOIN order_items oi
 GROUP BY c.customer_id
 ORDER BY total_spent DESC;
 ````
-**Results**
-| customer_id | total_spent |
-| 355         | 200         |
-| 185         | 128         |
-| 312         | 78          |
-| 869         | 62          |
-| 426         | 51          |
-| 288         | 27          |
-| 508         | 17          |
+#### Results
+    | customer_id | total_spent |
+    | ----------- | ----------- |
+    | 355         | 200         |
+    | 185         | 128         |
+    | 312         | 78          |
+    | 869         | 62          |
+    | 426         | 51          |
+    | 288         | 27          |
+    | 508         | 17          |
