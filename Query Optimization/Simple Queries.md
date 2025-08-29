@@ -1,4 +1,5 @@
-# Let's review and consolidate some simple queries.
+# Let's review and consolidate a simple query script.
+### Below is an example of how a well-structured data model can set the foundation for enhanced readability and well-defined schema structure script.   
 
 ## CREATE TABLE with ALTER TABLE script - untouched
 ````sql
