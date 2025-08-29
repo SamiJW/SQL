@@ -10,3 +10,16 @@ The executive team would like some insight on the customer base including orderi
 **1. What is the total amount each customer has spent on book purchases?**
 
 ````sql
+SELECT 
+    c.customer_id,
+    SUM(oi.unit_price * oi.quantity) AS total_spent
+FROM customers c
+JOIN orders o 
+    ON c.customer_id = o.customer_id
+JOIN order_items oi 
+    ON o.order_nbr = oi.order_nbr
+GROUP BY c.customer_id
+ORDER BY total_spent DESC;
+````
+**Results**
+|
