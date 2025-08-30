@@ -31,3 +31,8 @@ ORDER BY total_spent DESC;
 | 426         | 51          |
 | 288         | 27          |
 | 508         | 17          |
+
+#### Hm.. I think we could make these results more interesting. Let's add a column for the length of time each customer has had an account with the company.
+````sql
+
+````
