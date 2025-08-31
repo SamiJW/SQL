@@ -92,24 +92,6 @@ JOIN books b
 GROUP BY b.book_title
 ORDER BY quantity_sold DESC;
 ````
-BOOK_TITLE	QUANTITY_SOLD
-The Five Dysfunctions of a Team: A Leadership Fable	10
-Good to Great: Why Some Companies Make the Leap and Others Dont	10
-Outliers: The Story of Success	4
-The Five Love Languages: How to Express Heartfelt Commitment to Your Mate	2
-The Tipping Point: How Little Things Can Make a Big Difference	2
-I, Alex Cross	2
-The Lost Symbol	2
-The Love Dare	1
-Super Freakonomics: Global Cooling, Patriotic Prostitutes, and Why Suicide Bombers Should Buy Life Insurance	1
-True Compass: A Memoir	1
-The Shack: Where Tragedy Confronts Eternity	1
-Twilight (The Twilight Saga, Book 1)	1
-StrengthsFinder 2.0	1
-The Book of Basketball: The NBA According to The Sports Guy	1
-The Last Lecture	1
-Eat This, Not That! Thousands of Simple Food Swaps that Can Save You 10, 20, 30 Pounds--or More!	1
-Eclipse (Twilight)	1
-Under the Dome: A Novel	1
-Eat This Not That! Supermarket Survival Guide: The No-Diet Weight Loss Solution	1
-<img width="161" height="481" alt="image" src="https://github.com/user-attachments/assets/c8816c58-51da-4b11-9525-896ef178d985" />
+<img width="948" height="481" alt="image" src="https://github.com/user-attachments/assets/17125a0f-b50f-4e60-8138-8e09429cee8e" />
+
+
