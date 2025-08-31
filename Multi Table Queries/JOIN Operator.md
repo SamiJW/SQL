@@ -4,7 +4,8 @@
 The executive team would like some insight on the customer base including ordering patterns, best-sellers, and sales. 
 
 ### Entity Relationship Diagram
-<img width="820" height="997" alt="BookstoreERD drawio" src="https://github.com/user-attachments/assets/77551ebc-0302-4971-bc75-8841cd3bc5dc" />
+<img width="819" height="997" alt="BookstoreERD drawio" src="https://github.com/user-attachments/assets/aad93ad0-9e1d-4636-8674-7e8791f5ae5d" />
+
 
 
 **1. What is the total amount each customer has spent on book purchases?**
