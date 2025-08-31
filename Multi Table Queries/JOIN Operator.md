@@ -80,3 +80,8 @@ ORDER BY orders_placed DESC;
 | 355         | 1             |
 | 426         | 1             |
 | 312         | 1             |
+
+**3. What is the sales volume of each book?**
+````sql
+
+````
