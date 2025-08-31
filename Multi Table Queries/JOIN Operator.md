@@ -70,3 +70,13 @@ JOIN orders o
 GROUP BY c.customer_id
 ORDER BY orders_placed DESC;
 ````
+#### Results
+| customer_id | orders_placed |
+| :---------: | :-----------: |
+| 185         | 4             |
+| 869         | 3             |
+| 288         | 2             |
+| 508         | 2             |
+| 355         | 1             |
+| 426         | 1             |
+| 312         | 1             |
