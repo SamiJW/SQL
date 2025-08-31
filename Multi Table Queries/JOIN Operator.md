@@ -35,5 +35,25 @@ ORDER BY total_spent DESC;
 
 #### Hm.. I think we could make these results more interesting. Let's add a column for the length of time each customer has had an account with the company.
 ````sql
-
+SELECT 
+    c.customer_id,
+    ROUND(MONTHS_BETWEEN(TO_DATE('2025-08-31','yyyy-mm-dd'),c.account_opened)/12,2) AS customer_tenure_years,
+    SUM(oi.unit_price * oi.quantity) AS total_spent
+FROM customers c 
+JOIN orders o
+    ON c.customer_id = o.customer_id
+JOIN order_items oi
+    ON o.order_nbr = oi.order_nbr
+GROUP BY c.customer_id, c.account_opened
+ORDER BY total_spent DESC;
 ````
+#### Results
+| customer_id | customer_tenure_years | total_spent | 
+| :---------: | :-------------------: | :---------: |
+| 355         | 1.25                  | 200         |
+| 185         | 3.16                  | 128         |
+| 312         | 2.41                  | 78          |
+| 869         | 1.03                  | 62          |
+| 426         | 2.03                  | 51          |
+| 288         | 2.22                  | 27          |
+| 508         | 4.77                  | 17          |
