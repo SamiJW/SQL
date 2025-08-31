@@ -99,5 +99,5 @@ ORDER BY quantity_sold DESC;
 
 **Tip:** Notice I did not include the Book ID value but instead chose to return the Book Title. This is due to the audience to which this information is being presented. Recall this is the executive team we are addressing with our solutions. 
 We should refrain from presenting too much data to keep decisions prioritized and unburdened.     
-Had this been the marketing team looking to target demographics based on purchase history/ patterns, the Book ID value would hold much more impact. 
+Had this been the marketing team looking to target demographics based on purchase history/ patterns, the Book ID value would hold much more impact and relevance. 
 
