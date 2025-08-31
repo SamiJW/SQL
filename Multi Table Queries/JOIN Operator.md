@@ -94,4 +94,5 @@ ORDER BY quantity_sold DESC;
 ````
 #### Results
 <img width="948" height="481" alt="image" src="https://github.com/user-attachments/assets/17125a0f-b50f-4e60-8138-8e09429cee8e" />    
+
 *For potential proceeding aggregrate support, I specified returning a 0 value with the NVL function*
