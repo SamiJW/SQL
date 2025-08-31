@@ -57,3 +57,16 @@ ORDER BY total_spent DESC;
 | 426         | 2.03                  | 51          |
 | 288         | 2.22                  | 27          |
 | 508         | 4.77                  | 17          |
+
+
+**2. How many orders has each customer placed?**
+````sql
+SELECT 
+    c.customer_id,
+    COUNT(DISTINCT(o.order_nbr)) AS orders_placed
+FROM customers c
+JOIN orders o 
+    ON c.customer_id = o.customer_id
+GROUP BY c.customer_id
+ORDER BY orders_placed DESC;
+````
