@@ -93,9 +93,9 @@ GROUP BY b.book_title
 ORDER BY quantity_sold DESC;
 ````
 #### Results
-<img width="859" height="481" alt="image" src="https://github.com/user-attachments/assets/75e427bb-6771-464b-b6ee-fa963488d88a" />
-  
-
+<img width="859" height="481" alt="image" src="https://github.com/user-attachments/assets/75e427bb-6771-464b-b6ee-fa963488d88a" />    
+      
+     
 **Other uses of JOIN operators to address customer purchase history:**
 #### Display order details:
 ````sql
