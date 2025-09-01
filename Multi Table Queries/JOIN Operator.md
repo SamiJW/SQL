@@ -1,4 +1,4 @@
-## Use the JOIN operator to address the business task of an online bookstore
+## Use JOIN operators to address the business task of an online bookstore
 
 ## Business Task
 The executive team would like some insight on the customer base including ordering patterns, best-sellers, and sales. 
@@ -95,9 +95,17 @@ ORDER BY quantity_sold DESC;
 #### Results
 <img width="859" height="481" alt="image" src="https://github.com/user-attachments/assets/75e427bb-6771-464b-b6ee-fa963488d88a" />
   
-   
 
-**Tip:** Notice I did not include the Book ID value but instead chose to return the Book Title. This is due to the audience to which this information is being presented. Recall this is the executive team we are addressing with our solutions. 
-We should refrain from presenting too much data to keep decisions prioritized and unburdened.     
-Had this been the marketing team looking to target demographics based on purchase history/ patterns, the Book ID value would hold much more utility and relevance. 
+**Other uses of JOIN operators to address customer purchase history:**
+#### Display order details:
+````sql
+SELECT 
+    o.order_nbr, 
+    oi.book_id, 
+    oi.unit_price, 
+    oi.quantity
+FROM orders o
+    CROSS JOIN order_items oi
+ORDER BY o.order_nbr;
+````
 
