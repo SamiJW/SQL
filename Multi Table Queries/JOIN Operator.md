@@ -110,4 +110,5 @@ FROM orders o
     CROSS JOIN order_items oi
 ORDER BY o.order_nbr;
 ````
-
+#### Results [Snippet]:
+<img width="361" height="769" alt="image" src="https://github.com/user-attachments/assets/d196b3ee-8c1f-4919-b63b-3d5603b713d5" />
