@@ -14,3 +14,14 @@ Customer names are ascending in alphabetical order.
 ***
 
 ## 2. Provide a list of employees and their managers.
+````sql
+SELECT 
+    e.first_name || ' ' || e.last_name AS employee_name,
+    m.first_name || ' ' || m.last_name AS manager_name
+FROM employees m 
+JOIN employees e    
+    ON e.manager_id = m.employee_id
+ORDER BY employee_name ASC;
+````
+### Results:
+<img width="282" height="337" alt="image" src="https://github.com/user-attachments/assets/aac9afc5-33d8-4185-86aa-ba4de1a10b06" />
