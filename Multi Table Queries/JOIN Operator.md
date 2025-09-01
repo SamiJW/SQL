@@ -104,11 +104,15 @@ ORDER BY quantity_sold DESC;
 SELECT 
     o.order_nbr, 
     oi.book_id, 
+    b.book_title,
     oi.unit_price, 
     oi.quantity
 FROM orders o
     CROSS JOIN order_items oi
+JOIN books b
+    ON b.book_id = oi.book_id
 ORDER BY o.order_nbr;
 ````
 #### Results [Snippet]:
-<img width="361" height="769" alt="image" src="https://github.com/user-attachments/assets/d196b3ee-8c1f-4919-b63b-3d5603b713d5" />
+<img width="1088" height="745" alt="image" src="https://github.com/user-attachments/assets/0ebbee9b-ba46-4f79-85e7-c5b9b100d51b" />
+
