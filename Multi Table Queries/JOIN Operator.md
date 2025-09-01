@@ -85,7 +85,7 @@ ORDER BY orders_placed DESC;
 ````sql
 SELECT 
     b.book_title,
-    NVL(SUM(oi.quantity),0) AS quantity_sold
+    SUM(oi.quantity) AS quantity_sold
 FROM order_items oi
 JOIN books b 
     ON oi.book_id = b.book_id
@@ -95,8 +95,7 @@ ORDER BY quantity_sold DESC;
 #### Results
 <img width="859" height="481" alt="image" src="https://github.com/user-attachments/assets/75e427bb-6771-464b-b6ee-fa963488d88a" />
   
-
-*For potential proceeding aggregrate support, I specified returning a 0 value with the NVL function*   
+   
 
 **Tip:** Notice I did not include the Book ID value but instead chose to return the Book Title. This is due to the audience to which this information is being presented. Recall this is the executive team we are addressing with our solutions. 
 We should refrain from presenting too much data to keep decisions prioritized and unburdened.     
