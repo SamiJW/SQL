@@ -33,7 +33,7 @@ ORDER BY total_spent DESC;
 | 288         | 27          |
 | 508         | 17          |
 
-#### 1.bonus. Include the duration of time each customer's account has been open.
+#### Follow up: Include the duration of time each customer's account has been open.
 ````sql
 SELECT 
     c.customer_id,
